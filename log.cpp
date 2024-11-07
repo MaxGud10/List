@@ -15,7 +15,7 @@ int creat_log ()
     fprintf(Log_File, "<pre>\n");
     // fprintf(Log_File, "<pre>\n");
 
-    atexit (fclose_log);    
+    atexit (fclose_log);  // TODO  написать максу что за функция  
 
     return 0;
 }
